@@ -5,18 +5,6 @@
   "homepage": "https://github.com/Njurse/JERICHO-Repo-Official",
   "mods": [
     {
-      "id": "JerAI",
-      "name": "JerAI",
-      "version": "0.1.0",
-      "author": "Jaret Ludvik",
-      "description": "General-purpose AI driver for the player's car: A* pathfinding over an engine occupancy grid, road-graph extraction, joyride/random-wander behaviors, in-game debug visualization and a small control menu.",
-      "file": "packages/JerAI-0.1.0.zip",
-      "sha256": "0ca0c8ac35f1cace117dc943afa84de82c89ca225cb2c5eb1293b341f8e91771",
-      "interface": 2,
-      "default_enabled": false,
-      "size": 86179
-    },
-    {
       "id": "carhacks",
       "name": "Car Hacks",
       "version": "0.2.0",
@@ -42,14 +30,14 @@
     },
     {
       "id": "d1cars",
-      "name": "Driver 1 Cars",
-      "version": "0.2.0",
+      "name": "BAKE Car Toolkit",
+      "version": "0.2.1",
       "author": "Jaret Ludvik",
       "description": "Driver 1 (1999) traffic car shapes as a fifth, synthetic car-data source alongside the four Driver 2 cities. SCAFFOLD ONLY - no behaviour yet; see docs/DRIVER1.md.",
-      "file": "packages/d1cars-0.2.0.zip",
-      "sha256": "203b36aa63e0596c3a35c31291604bafd3b2729a91a3a02721acddea766c8f52",
+      "file": "packages/d1cars-0.2.1.zip",
+      "sha256": "f1ef9286907b999a34e2fd0168b515322e05b51674a585c2df0fa796af9b37a9",
       "default_enabled": false,
-      "size": 132282
+      "size": 132316
     },
     {
       "id": "mp",
