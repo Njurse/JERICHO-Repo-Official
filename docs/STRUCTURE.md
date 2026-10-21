@@ -1,5 +1,9 @@
 # Module folder structure expected by Jericho
 
+This repository is the official **store** repo: `mods.json` is the index and
+`packages/` holds the published zips. A source repository keeps the module at its
+root, or under `MODS/<id>/` in the `new_mod_repo.sh` layout. See `README.md`.
+
 Each module is a directory named after its `id`:
 
 ```
