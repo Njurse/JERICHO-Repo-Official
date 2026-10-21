@@ -1,0 +1,7 @@
+id = "example"
+name = "Example Module"
+version = "0.1.0"
+author = "Njurse"
+description = "Minimal official example that logs a line every 60 frames."
+default-enabled = false
+runtime = "dll"
