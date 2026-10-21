@@ -12,7 +12,7 @@ MODS/<id>/
     └── *.tga
 ```
 
-### mod.toml fields (from jer_loader / HOOKS.md)
+### mod.toml fields
 
 | Key               | Required | Notes                                      |
 |-------------------|----------|--------------------------------------------|

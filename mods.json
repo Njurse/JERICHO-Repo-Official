@@ -1,0 +1,55 @@
+{
+  "mods": [
+    {
+      "id": "crumple",
+      "name": "CRUMPLE",
+      "version": "1.0.0",
+      "author": "Nattdy + DeepSeek",
+      "description": "Impact-driven car deformation and wheel damage layered on the stock damaged-model system.",
+      "source": "https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/crumple",
+      "runtime": "compiled-in",
+      "default-enabled": true
+    },
+    {
+      "id": "mp",
+      "name": "Multiplayer",
+      "version": "0.1.0",
+      "author": "JERICHO",
+      "description": "LAN multiplayer: host/join with UDP discovery, real frontend menus, and synchronized play.",
+      "source": "https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/mp",
+      "runtime": "compiled-in",
+      "default-enabled": true
+    },
+    {
+      "id": "d1cars",
+      "name": "Driver 1 Cars",
+      "version": "0.1.0",
+      "author": "JERICHO",
+      "description": "Driver 1 traffic car shapes as an additional car-data source (bake from your own Driver 1 copy).",
+      "source": "https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/d1cars",
+      "runtime": "compiled-in",
+      "default-enabled": false
+    },
+    {
+      "id": "carhacks",
+      "name": "Car Hacks",
+      "version": "0.1.0",
+      "author": "JERICHO",
+      "description": "Vehicle availability + cross-city imports: unlock hidden cars and load another city's vehicles into a level.",
+      "source": "https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/carhacks",
+      "runtime": "compiled-in",
+      "default-enabled": true
+    },
+    {
+      "id": "autodrive",
+      "name": "AutoDrive",
+      "version": "0.1.0",
+      "author": "JERICHO",
+      "description": "Autonomous AI driver for the player's car using A* pathfinding on an occupancy grid, with joyride, follow, and police-evasion behaviors.",
+      "source": "https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/JerAI",
+      "runtime": "compiled-in",
+      "default-enabled": false,
+      "notes": "Formerly JerAI. Suggested rename to AutoDrive (or PathDriver / AIPilot)."
+    }
+  ]
+}
