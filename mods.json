@@ -7,14 +7,14 @@
     {
       "id": "mp",
       "name": "Multiplayer",
-      "version": "0.15.2",
+      "version": "0.15.3",
       "author": "JERICHO",
       "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (15).",
-      "file": "packages/mp-0.15.2.zip",
-      "sha256": "75d6558cae128e45991c1c09e897aea46ef9f6d18843ab8ba01879e17f081db1",
+      "file": "packages/mp-0.15.3.zip",
+      "sha256": "4e2c8197e4832f346dc1c06e0bd1e1f230807b5b776bf11306f62d5598f664b2",
       "interface": 2,
       "default_enabled": true,
-      "size": 720176
+      "size": 721934
     },
     {
       "id": "carhacks",
@@ -43,13 +43,13 @@
     {
       "id": "d1cars",
       "name": "BAKE Car Toolkit",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "author": "Jaret Ludvik",
       "description": "Driver 1 (1999) traffic car shapes as a synthetic car-data source: bakes the seven retail Driver 1 cities plus the Euro-43 beta into carhacks, from your own Driver 1 data. See docs/DRIVER1.md.",
-      "file": "packages/d1cars-0.2.3.zip",
-      "sha256": "bc162edbb841185c8e14a8562663ec97485074895ed85e614c7956233ba9f2c0",
+      "file": "packages/d1cars-0.2.4.zip",
+      "sha256": "62456a2cb4cc54a05489c925b1cd73bfd597db0352b300dcbb44205b5f979693",
       "default_enabled": false,
-      "size": 132888
+      "size": 144568
     },
     {
       "id": "JerAI",
