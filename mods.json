@@ -7,14 +7,14 @@
     {
       "id": "mp",
       "name": "Multiplayer",
-      "version": "0.15.1",
+      "version": "0.15.2",
       "author": "JERICHO",
       "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (15).",
-      "file": "packages/mp-0.15.1.zip",
-      "sha256": "ddb57780b8e7d008bf9044131cb275a865bd3720c3b06d06cffb66960b4bbae0",
+      "file": "packages/mp-0.15.2.zip",
+      "sha256": "75d6558cae128e45991c1c09e897aea46ef9f6d18843ab8ba01879e17f081db1",
       "interface": 2,
       "default_enabled": true,
-      "size": 719969
+      "size": 720176
     },
     {
       "id": "carhacks",
