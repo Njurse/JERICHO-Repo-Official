@@ -19,26 +19,26 @@
     {
       "id": "carhacks",
       "name": "Car Hacks",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "author": "JERICHO",
       "description": "Vehicle-availability and cross-city vehicle hacks for Driver 2: unlock the extra vehicles in the frontend car list, and import vehicles that belong to another city's data. Standalone (lifted out of Caine's Crossfire) so it can be enabled next to the multiplayer module.",
-      "file": "packages/carhacks-0.2.3.zip",
-      "sha256": "a36474812211910221ec55b944e64c67f49adb65bd0a980146729c545e07db75",
+      "file": "packages/carhacks-0.2.4.zip",
+      "sha256": "eac0be909be3646b9fa41b10610e10270d5fa3b9b92c039c89c403c063c40dc0",
       "interface": 2,
       "default_enabled": true,
-      "size": 3464291
+      "size": 3495615
     },
     {
       "id": "crumple",
       "name": "CRUMPLE",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": "Nattdy + DeepSeek",
       "description": "Impact-driven vertex deformation + wheel damage. The flagship JERICHO package: dents, crumples, bent wheels, surface-roughness amplification, and the Crumple Debug pause submenu.",
-      "file": "packages/crumple-1.1.1.zip",
-      "sha256": "f38bd5755d5419f61d2396306ae13ff1f3d28e054a3aebe2e8f2857b52bf3ce0",
+      "file": "packages/crumple-1.1.2.zip",
+      "sha256": "10a749989f65b0651d983cc0941f512a5ab22210224cf564cc440d565cc2d456",
       "interface": 2,
       "default_enabled": false,
-      "size": 36553
+      "size": 36683
     },
     {
       "id": "d1cars",
