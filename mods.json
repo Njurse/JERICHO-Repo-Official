@@ -62,6 +62,18 @@
       "interface": 2,
       "default_enabled": false,
       "size": 86112
+    },
+    {
+      "id": "fulltwist",
+      "name": "FULL TWIST",
+      "version": "0.4.0",
+      "author": "JERICHO",
+      "description": "Free-physics tumbles: cars keep their spin after a hit, scenery torque uses the convex hull contact, walls bounce, car-car recoil is tamed, and the body grips and hinges on the ground instead of sliding.",
+      "file": "packages/fulltwist-0.4.0.zip",
+      "sha256": "67de947f800cf2fe953c7b5dd2383b4bda56d0571903ff369570e8b3a93b1761",
+      "interface": 2,
+      "default_enabled": false,
+      "size": 44733
     }
   ]
 }
