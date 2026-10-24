@@ -7,49 +7,49 @@
     {
       "id": "mp",
       "name": "Multiplayer",
-      "version": "0.15.3",
+      "version": "0.15.4",
       "author": "JERICHO",
-      "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (15).",
-      "file": "packages/mp-0.15.3.zip",
-      "sha256": "4e2c8197e4832f346dc1c06e0bd1e1f230807b5b776bf11306f62d5598f664b2",
+      "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (17).",
+      "file": "packages/mp-0.15.4.zip",
+      "sha256": "efceee4e2695a8747d97b6308408891ad15d9d97f17759a0a3b71ea82ee312bc",
       "interface": 2,
       "default_enabled": true,
-      "size": 721934
+      "size": 937103
     },
     {
       "id": "carhacks",
       "name": "Car Hacks",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "author": "JERICHO",
       "description": "Vehicle-availability and cross-city vehicle hacks for Driver 2: unlock the extra vehicles in the frontend car list, and import vehicles that belong to another city's data. Standalone (lifted out of Caine's Crossfire) so it can be enabled next to the multiplayer module.",
-      "file": "packages/carhacks-0.2.4.zip",
-      "sha256": "eac0be909be3646b9fa41b10610e10270d5fa3b9b92c039c89c403c063c40dc0",
+      "file": "packages/carhacks-0.2.5.zip",
+      "sha256": "b66be838eb2dde7d2cdf65ed8cec127399bd669f3a6946d5b5610376a3a92ab5",
       "interface": 2,
       "default_enabled": true,
-      "size": 3495615
+      "size": 3533067
     },
     {
       "id": "crumple",
       "name": "CRUMPLE",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "author": "Nattdy + DeepSeek",
       "description": "Impact-driven vertex deformation + wheel damage. The flagship JERICHO package: dents, crumples, bent wheels, surface-roughness amplification, and the Crumple Debug pause submenu.",
-      "file": "packages/crumple-1.1.2.zip",
-      "sha256": "10a749989f65b0651d983cc0941f512a5ab22210224cf564cc440d565cc2d456",
+      "file": "packages/crumple-1.1.3.zip",
+      "sha256": "39c4d17cccfab0d60e12fa135baa2b3574c44f748566bc1e61eba53a3e1f3e8f",
       "interface": 2,
       "default_enabled": false,
-      "size": 36683
+      "size": 39384
     },
     {
       "id": "d1cars",
       "name": "BAKE Car Toolkit",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "author": "Jaret Ludvik",
       "description": "Driver 1 (1999) traffic car shapes as a synthetic car-data source: bakes the seven retail Driver 1 cities plus the Euro-43 beta into carhacks, from your own Driver 1 data. See docs/DRIVER1.md.",
-      "file": "packages/d1cars-0.2.4.zip",
-      "sha256": "62456a2cb4cc54a05489c925b1cd73bfd597db0352b300dcbb44205b5f979693",
+      "file": "packages/d1cars-0.2.5.zip",
+      "sha256": "83e417a2d8c78cd8def968a2ab623f0ca298fbeffa641a0447ed9685097fa613",
       "default_enabled": false,
-      "size": 144568
+      "size": 363912
     },
     {
       "id": "JerAI",
