@@ -66,14 +66,26 @@
     {
       "id": "fulltwist",
       "name": "FULL TWIST",
-      "version": "0.4.0",
+      "version": "0.4.3",
       "author": "JERICHO",
-      "description": "Free-physics tumbles: cars keep their spin after a hit, scenery torque uses the convex hull contact, walls bounce, car-car recoil is tamed, and the body grips and hinges on the ground instead of sliding.",
-      "file": "packages/fulltwist-0.4.0.zip",
-      "sha256": "67de947f800cf2fe953c7b5dd2383b4bda56d0571903ff369570e8b3a93b1761",
-      "interface": 2,
+      "description": "Free-physics tumbles: cars keep their spin after a hit, scenery torque uses the convex hull contact, walls bounce, and car-car recoil is tamed.",
+      "file": "packages/fulltwist-0.4.3.zip",
+      "sha256": "a16e090451d4471d15f41c0be65696ed34cb9e0b12b6ac702b2395ae000e3312",
+      "interface": 3,
       "default_enabled": false,
-      "size": 44733
+      "size": 148506
+    },
+    {
+      "id": "yarisbounce",
+      "name": "Yaris Bounce",
+      "version": "1.0.0",
+      "author": "Nattdy",
+      "description": "The squishy-Yaris meme effect: squash & stretch the car body's vertex copy as it drives (RSIN phase + quartic ease), drawn without touching physics or collision.",
+      "file": "packages/yarisbounce-1.0.0.zip",
+      "sha256": "e4ba4d5430218e2f6cc6ffbfc039467d6fa7d103aaae252c6bb86df559690803",
+      "interface": 3,
+      "default_enabled": false,
+      "size": 64723
     }
   ]
 }
