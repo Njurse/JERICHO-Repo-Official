@@ -41,15 +41,19 @@
       "size": 39384
     },
     {
-      "id": "d1cars",
-      "name": "BAKE Car Toolkit",
-      "version": "0.2.5",
+      "id": "bake",
+      "name": "BAKE Toolkit",
+      "version": "0.3.0",
       "author": "Jaret Ludvik",
       "description": "Driver 1 (1999) traffic car shapes as a synthetic car-data source: bakes the seven retail Driver 1 cities plus the Euro-43 beta into carhacks, from your own Driver 1 data. See docs/DRIVER1.md.",
-      "file": "packages/d1cars-0.2.5.zip",
-      "sha256": "83e417a2d8c78cd8def968a2ab623f0ca298fbeffa641a0447ed9685097fa613",
+      "file": "packages/bake-0.3.0.zip",
+      "sha256": "ee0604e5d74920e5652f0af4033617187081d137e10518c4c7adf011a36cb27e",
+      "interface": 3,
+      "requires": [
+        "carhacks"
+      ],
       "default_enabled": false,
-      "size": 363912
+      "size": 15013503
     },
     {
       "id": "JerAI",
