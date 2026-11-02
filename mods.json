@@ -79,14 +79,14 @@
     {
       "id": "hallgarthcars",
       "name": "Hallgarth's Cars",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": "Hallgarth, Njurse; thanks Commando52Colton",
-      "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLCHCG, Chicago model 1 slot): clean, damaged and low LODs with its own wheels and sounds. Data only: register banks/hallchcg/cities.ini and import it with carhacks.",
-      "file": "packages/hallgarthcars-0.1.1.zip",
-      "sha256": "cda14d453bc42e5c4e5b480a47d4634ce82ebb6ae00f2a3d2a3d7bd7ed007cc2",
+      "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLCHCG): clean, damaged and low LODs with its own wheels and sounds. Enable and play: carhacks registers the bank on its own (JERICHO 0.13.4+). Older games: add banks/hallchcg/cities.ini to JERICHO/CONFIG/cities.ini.",
+      "file": "packages/hallgarthcars-0.1.2.zip",
+      "sha256": "ab31681def1b1c45d36397a97905ed735cee7f56e6046457e5fd8052188d6dc2",
       "interface": 3,
       "default_enabled": false,
-      "size": 3741851,
+      "size": 3741986,
       "requires": [
         "carhacks"
       ]
