@@ -80,7 +80,7 @@
       "id": "hallgarthcars",
       "name": "Hallgarth's Cars",
       "version": "0.1.0",
-      "author": "Hallgarth, Jaret Ludvik",
+      "author": "Hallgarth, Njurse",
       "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLCHCG, Chicago model 1 slot): clean, damaged and low LODs with its own wheels and sounds. Data only: register banks/hallchcg/cities.ini and import it with carhacks.",
       "file": "packages/hallgarthcars-0.1.0.zip",
       "sha256": "fa80ea427704152a8cfb54cfd014f57d1ec7178f4021ea1f516c12bcfba333b5",
