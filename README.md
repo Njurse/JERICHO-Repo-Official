@@ -18,7 +18,8 @@ into `JERICHO/MODS/<id>/`. Nothing is installed unless the hash matches.
 | `carhacks` | https://github.com/Njurse/JERICHO-Mod-carhacks |
 | `crumple` | https://github.com/Njurse/Jericho-Mod-CRUMPLE |
 | `d1cars` | https://github.com/Njurse/JERICHO-D1 |
-| `JerAI` | https://github.com/Njurse/JERICHO/tree/main/JERICHO/MODS/JerAI |
+| `hallgarthcars` | https://github.com/Njurse/JERICHO-Mod-HallgarthCars |
+| `antfarm` | https://github.com/Njurse/JERICHO-Mod-Antfarm |
 
 `mp`, `carhacks` and `crumple` are also git submodules of JERICHO, mounted at
 `JERICHO/MODS/<id>`.
@@ -34,7 +35,7 @@ The index and packages are generated from the sources; never hand-edit a hash.
    sh JERICHO/CORE/modstore/gen_mods_json.sh --out out --url packages \
        --repo-id official --repo-name "JERICHO Mods" \
        --homepage https://github.com/Njurse/JERICHO-Repo-Official \
-       mp carhacks crumple d1cars JerAI
+       mp carhacks crumple d1cars
    ```
 
 3. Validate against the published index:

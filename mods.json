@@ -56,18 +56,6 @@
       "size": 15013503
     },
     {
-      "id": "JerAI",
-      "name": "JerAI",
-      "version": "0.1.1",
-      "author": "Jaret Ludvik",
-      "description": "General-purpose AI driver for the player's car: A* pathfinding over an engine occupancy grid, road-graph extraction, joyride/random-wander behaviors, in-game debug visualization and a small control menu.",
-      "file": "packages/JerAI-0.1.1.zip",
-      "sha256": "6583b59825f1dcaefb58bd1f296ef1089f80b6fe8d8e26f942f86cb852457f07",
-      "interface": 2,
-      "default_enabled": false,
-      "size": 86112
-    },
-    {
       "id": "fulltwist",
       "name": "FULL TWIST",
       "version": "0.4.3",
@@ -102,6 +90,18 @@
       "interface": 3,
       "default_enabled": false,
       "size": 3741836
+    },
+    {
+      "id": "antfarm",
+      "name": "Ant Farm Screensaver",
+      "version": "0.2.0",
+      "author": "REDRIVER2 community",
+      "description": "Passive city observer / idle screensaver: tours the map with 17 cinematic camera angles while the city keeps living; stands down during multiplayer. Compiled-in module (source package; already built into the JERICHO executable).",
+      "file": "packages/antfarm-0.2.0.zip",
+      "sha256": "55d226cc6fd5e63c4064e1b3a649eb8878fa70fecc8cf0f373b177d51ed1c8ca",
+      "interface": 3,
+      "default_enabled": false,
+      "size": 86634
     }
   ]
 }
