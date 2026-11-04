@@ -24,6 +24,8 @@ into `JERICHO/MODS/<id>/`. Nothing is installed unless the hash matches.
 `mp`, `carhacks` and `crumple` are also git submodules of JERICHO, mounted at
 `JERICHO/MODS/<id>`.
 
+`hallgarthcars` is store-only and is not shipped in the JERICHO Release zip (the core pack is `mp`, `carhacks`, `crumple`, and `bake`).
+
 ## Publishing
 
 The index and packages are generated from the sources; never hand-edit a hash.
