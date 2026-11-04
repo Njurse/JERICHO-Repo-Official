@@ -79,14 +79,14 @@
     {
       "id": "hallgarthcars",
       "name": "Hallgarth's Cars",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "Hallgarth, Njurse; thanks Commando52Colton",
       "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLCHCG): the updated Firebird model with its own paint pages, wheels and sounds. Clean, damaged and low LODs. Enable and play: carhacks registers the bank on its own (JERICHO 0.13.4+). Older games: add banks/hallchcg/cities.ini to JERICHO/CONFIG/cities.ini.",
-      "file": "packages/hallgarthcars-0.1.3.zip",
-      "sha256": "3aaaacef800d62343dc644cec12cd70c3527186b10a911b651768a56570a69e7",
+      "file": "packages/hallgarthcars-0.1.4.zip",
+      "sha256": "32909e558156ea19b77752e1c621929f94022b523499a2fcba8f5642097902b3",
       "interface": 3,
       "default_enabled": false,
-      "size": 1325745,
+      "size": 1302574,
       "requires": [
         "carhacks"
       ]
