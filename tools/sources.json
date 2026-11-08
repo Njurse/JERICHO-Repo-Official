@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "comment": "Where each store mod comes from. The sync tool prefers the newest semver release tag on the repo; set ignore_tags when the repo's tags are game releases, not mod releases. subdir is the mod root inside the repo. jericho_subdir names a mod that still lives in the JERICHO tree (pass --jericho).",
+  "mods": {
+    "mp": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-MP",
+      "branch": "main"
+    },
+    "carhacks": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-carhacks",
+      "branch": "main"
+    },
+    "crumple": {
+      "repo": "https://github.com/Njurse/Jericho-Mod-CRUMPLE",
+      "branch": "main"
+    },
+    "bake": {
+      "repo": "https://github.com/Njurse/BAKE",
+      "branch": "main"
+    },
+    "antfarm": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-Antfarm",
+      "branch": "0.12"
+    },
+    "hallgarthcars": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-HallgarthCars",
+      "branch": "main"
+    },
+    "fulltwist": {
+      "repo": "https://github.com/Njurse/JERICHO",
+      "branch": "main",
+      "subdir": "JERICHO/MODS/fulltwist",
+      "ignore_tags": true
+    },
+    "yarisbounce": {
+      "repo": "https://github.com/Njurse/JERICHO",
+      "branch": "main",
+      "subdir": "JERICHO/MODS/yarisbounce",
+      "ignore_tags": true
+    },
+    "chicagobigrig": {
+      "jericho_subdir": "JERICHO/MODS/chicagobigrig",
+      "note": "source lives in the JERICHO tree until it gets its own repo"
+    }
+  }
+}

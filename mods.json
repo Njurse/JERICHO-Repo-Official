@@ -7,24 +7,24 @@
     {
       "id": "mp",
       "name": "Multiplayer",
-      "version": "0.17.0",
+      "version": "0.18.0",
       "author": "Nattdy",
-      "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), a player-chosen on-foot character from the JMPPED archive (Tanner, Jericho and custom entries) synced through the host, in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (19).",
-      "file": "mp-0.17.0.zip",
-      "sha256": "89e37df0ba9662cd7ef721285c04c14f2ea7cc4a65158358f7912b5e3cd3dd6c",
+      "description": "Online and LAN multiplayer for up to 16 players: discovery-server browser plus LAN discovery, dedicated server support, owner-authoritative car sync (each machine drives its own car and broadcasts its state; peers adopt it verbatim), a player-chosen on-foot character from the JMPPED archive (Tanner, Jericho and custom entries) synced through the host, in-match chat, a host-maintained roster, and a generic JERICHO addon net bridge. Minor version tracks MP_PROTO_VERSION (21).",
+      "file": "packages/mp-0.18.0.zip",
+      "sha256": "6a6679be6d5962fb7f885c8a59d8bc5cebde21497e38a180d6d079fb0b2eed91",
       "interface": 3,
-      "size": 1668884
+      "size": 775909
     },
     {
       "id": "carhacks",
       "name": "Car Hacks",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "author": "Nattdy",
       "description": "Vehicle-availability and cross-city vehicle hacks for Driver 2: unlock the extra vehicles in the frontend car list, and import vehicles that belong to another city's data. Standalone (lifted out of Caine's Crossfire) so it can be enabled next to the multiplayer module.",
-      "file": "carhacks-0.2.7.zip",
-      "sha256": "8971e2c8f0dc76f79d1fb7ac828a8b54d407f65959858ba0b37d0e1beaf0cbdc",
+      "file": "packages/carhacks-0.2.8.zip",
+      "sha256": "42c9433e1619c7cea557d44f9dfad3685fcf99044e5bb8f4b044e78fc7d393d1",
       "interface": 3,
-      "size": 3504912
+      "size": 3735509
     },
     {
       "id": "crumple",
@@ -32,7 +32,7 @@
       "version": "1.1.4",
       "author": "Nattdy + DeepSeek",
       "description": "Impact-driven vertex deformation + wheel damage. The flagship JERICHO package: dents, crumples, bent wheels, surface-roughness amplification, and the Crumple Debug pause submenu.",
-      "file": "crumple-1.1.4.zip",
+      "file": "packages/crumple-1.1.4.zip",
       "sha256": "f57d00008215bbaa7c6fc945abb3488a5873f3ecbac3cfa400db9d36f0417731",
       "interface": 3,
       "size": 38837
@@ -40,29 +40,29 @@
     {
       "id": "bake",
       "name": "BAKE Toolkit",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": "Nattdy",
-      "description": "Driver 1 (1999) traffic car shapes as a synthetic car-data source: bakes the seven retail Driver 1 cities plus the Euro-43 beta into carhacks, from your own Driver 1 data. See docs/DRIVER1.md.",
-      "file": "packages/bake-0.3.0.zip",
-      "sha256": "ee0604e5d74920e5652f0af4033617187081d137e10518c4c7adf011a36cb27e",
+      "description": "BAKE Toolkit 0.4.0: Driver 1 (1999) traffic car shapes for carhacks plus the JMPPED pedestrian archive suite for pedhacks, built from your own Driver 1 / Driver 2 data. See docs/DRIVER1.md and tools/ped/.",
+      "file": "packages/bake-0.4.0.zip",
+      "sha256": "635a268a90ae06156ed3fddbfb4408c22a067dc550a5953764dba29c07583c24",
       "interface": 3,
       "requires": [
         "carhacks"
       ],
       "default_enabled": false,
-      "size": 15013503
+      "size": 929153
     },
     {
       "id": "fulltwist",
       "name": "FULL TWIST",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "author": "Nattdy",
       "description": "Free-physics tumbles: cars keep their spin after a hit, scenery torque uses the convex hull contact, walls bounce, and car-car recoil is tamed.",
-      "file": "packages/fulltwist-0.4.3.zip",
-      "sha256": "a16e090451d4471d15f41c0be65696ed34cb9e0b12b6ac702b2395ae000e3312",
+      "file": "packages/fulltwist-0.4.4.zip",
+      "sha256": "f5c9fbd1017d254590c2f3a0abee445df2e8f3a24d61b67de58e224bfa960245",
       "interface": 3,
       "default_enabled": false,
-      "size": 148506
+      "size": 149862
     },
     {
       "id": "yarisbounce",
@@ -102,6 +102,21 @@
       "interface": 3,
       "default_enabled": false,
       "size": 86634
+    },
+    {
+      "id": "chicagobigrig",
+      "name": "Chicago Big Rig",
+      "version": "0.1.0",
+      "author": "Njurse, Commando52Colton",
+      "description": "The Chicago Big Rig as a BAKE car bank (BIGRIG): the full truck, cab-only and trailer-only variants, with clean, damaged and low LODs. Enable and play: carhacks registers the bank on its own (JERICHO 0.13.4+). Older games: add banks/bigrig/cities.ini to JERICHO/CONFIG/cities.ini.",
+      "file": "packages/chicago_bigrig-0.1.0.zip",
+      "sha256": "5167fe609779fca0e62e6fbb19cce571180c1d6597efc5342e763eba576f184d",
+      "interface": 3,
+      "default_enabled": false,
+      "size": 515502,
+      "requires": [
+        "carhacks"
+      ]
     }
   ]
 }
