@@ -21,6 +21,7 @@ into `JERICHO/MODS/<id>/`. Nothing is installed unless the hash matches.
 | `fulltwist` | https://github.com/Njurse/JERICHO at `JERICHO/MODS/fulltwist` |
 | `yarisbounce` | https://github.com/Njurse/JERICHO at `JERICHO/MODS/yarisbounce` |
 | `hallgarthcars` | https://github.com/Njurse/JERICHO-Mod-HallgarthCars |
+| `civviecops` | https://github.com/Njurse/JERICHO-Mod-CivvieCops |
 | `antfarm` | https://github.com/Njurse/JERICHO-Mod-Antfarm |
 | `chicagobigrig` | the JERICHO tree at `JERICHO/MODS/chicagobigrig` (no source repo yet) |
 
