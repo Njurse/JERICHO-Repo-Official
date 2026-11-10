@@ -26,6 +26,10 @@
       "repo": "https://github.com/Njurse/JERICHO-Mod-HallgarthCars",
       "branch": "main"
     },
+    "civviecops": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-CivvieCops",
+      "branch": "main"
+    },
     "fulltwist": {
       "repo": "https://github.com/Njurse/JERICHO",
       "branch": "main",

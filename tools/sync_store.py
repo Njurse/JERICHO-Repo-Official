@@ -333,6 +333,7 @@ def main(argv):
             entry = index.get(mod_id)
             pub_ver = entry.get("version") if entry else None
             zip_path = published_zip(entry)
+            differs = None
 
             if zip_path is None:
                 content = "missing" if entry is None else "no package"
