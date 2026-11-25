@@ -136,13 +136,13 @@
     {
       "id": "civviecops",
       "name": "CivvieCops",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "author": "Njurse",
       "description": "Hand-made civilian variants of the Driver 2 cop cars (CIVICOPS bank, Chicago/Havana/Rio/Vegas) plus the COPSNRBRS cop-car bank, whose cars are police-only (patrol cars) in Cops n Robbers. Data-only; needs Car Hacks.",
-      "file": "packages/civviecops-0.2.1.zip",
-      "sha256": "fc5cb2dfa983981830d3f447eca988f5a91049964742a9bcbd14dc68800d0afd",
+      "file": "packages/civviecops-0.2.2.zip",
+      "sha256": "b7e768c58b901d298934ba2dc6825d3e5d370a1e4374fe87f06f6cf531be0a02",
       "interface": 3,
-      "size": 2571342,
+      "size": 2569442,
       "default_enabled": false,
       "requires": [
         "carhacks"
