@@ -22,6 +22,8 @@ into `JERICHO/MODS/<id>/`. Nothing is installed unless the hash matches.
 | `yarisbounce` | https://github.com/Njurse/JERICHO at `JERICHO/MODS/yarisbounce` |
 | `hallgarthcars` | https://github.com/Njurse/JERICHO-Mod-HallgarthCars |
 | `antfarm` | https://github.com/Njurse/JERICHO-Mod-Antfarm |
+| `democars` | https://github.com/Njurse/JERICHO-Mod-DemoCars |
+| `civviecops` | https://github.com/Njurse/JERICHO-Mod-CivvieCops |
 | `chicagobigrig` | the JERICHO tree at `JERICHO/MODS/chicagobigrig` (no source repo yet) |
 
 `mp`, `carhacks`, `crumple` and `bake` are also git submodules of JERICHO,

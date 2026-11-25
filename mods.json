@@ -117,6 +117,36 @@
       "requires": [
         "carhacks"
       ]
+    },
+    {
+      "id": "democars",
+      "name": "DemoCars",
+      "version": "0.1.0",
+      "author": "Njurse",
+      "description": "Demo vehicle pack: custom cars baked into the DEMOCARS city bank (Havana and Vegas based) with portraits. Data-only; needs Car Hacks.",
+      "file": "packages/democars-0.1.0.zip",
+      "sha256": "fa9bb2d2b8175b07e286feb201a614211e1f2c95181f76a4501cdcecb2f58c0c",
+      "interface": 3,
+      "size": 379884,
+      "default_enabled": false,
+      "requires": [
+        "carhacks"
+      ]
+    },
+    {
+      "id": "civviecops",
+      "name": "CivvieCops",
+      "version": "0.2.0",
+      "author": "Njurse",
+      "description": "Hand-made civilian variants of the Driver 2 cop cars (CIVICOPS bank, Chicago/Havana/Rio/Vegas) plus the COPSNRBRS cop-car bank, whose cars are police-only (patrol cars) in Cops n Robbers. Data-only; needs Car Hacks.",
+      "file": "packages/civviecops-0.2.0.zip",
+      "sha256": "8efb0d9a4ffad54bd1894c3c66837f1feef4799be4a63d4e50464ba200f33a6d",
+      "interface": 3,
+      "size": 2242516,
+      "default_enabled": false,
+      "requires": [
+        "carhacks"
+      ]
     }
   ]
 }

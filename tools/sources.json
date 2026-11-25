@@ -41,6 +41,14 @@
     "chicagobigrig": {
       "jericho_subdir": "JERICHO/MODS/chicagobigrig",
       "note": "source lives in the JERICHO tree until it gets its own repo"
+    },
+    "democars": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-DemoCars",
+      "branch": "main"
+    },
+    "civviecops": {
+      "repo": "https://github.com/Njurse/JERICHO-Mod-CivvieCops",
+      "branch": "main"
     }
   }
 }
