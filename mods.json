@@ -79,14 +79,14 @@
     {
       "id": "hallgarthcars",
       "name": "Hallgarth's Cars",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "author": "Hallgarth, Njurse; thanks Commando52Colton",
-      "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLCHCG): the updated Firebird model with its own paint pages, wheels and sounds. Clean, damaged and low LODs. Enable and play: carhacks registers the bank on its own (JERICHO 0.13.4+). Older games: add banks/hallchcg/cities.ini to JERICHO/CONFIG/cities.ini.",
-      "file": "packages/hallgarthcars-0.1.4.zip",
-      "sha256": "32909e558156ea19b77752e1c621929f94022b523499a2fcba8f5642097902b3",
+      "description": "Hallgarth's Pontiac Firebird as a BAKE car bank (HALLGRTH): the updated Firebird model with its own paint pages, wheels and sounds. Clean, damaged and low LODs. Enable and play: carhacks registers the bank on its own (JERICHO 0.13.4+).",
+      "file": "packages/hallgarthcars-0.1.5.zip",
+      "sha256": "0b4b51e41791fbf7db74935e6ea10b4484d90c3689e0855d813b876d5d8f24f9",
       "interface": 3,
       "default_enabled": false,
-      "size": 1302574,
+      "size": 157832,
       "requires": [
         "carhacks"
       ]
@@ -121,13 +121,13 @@
     {
       "id": "democars",
       "name": "DemoCars",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": "Njurse",
       "description": "Demo vehicle pack: custom cars baked into the DEMOCARS city bank (Havana and Vegas based) with portraits. Data-only; needs Car Hacks.",
-      "file": "packages/democars-0.1.0.zip",
-      "sha256": "fa9bb2d2b8175b07e286feb201a614211e1f2c95181f76a4501cdcecb2f58c0c",
+      "file": "packages/democars-0.1.1.zip",
+      "sha256": "e7b1117733a9c7e568b5ed2e767a5c1d1ad2ebb5e279ae191fbde750084a88e8",
       "interface": 3,
-      "size": 379884,
+      "size": 439920,
       "default_enabled": false,
       "requires": [
         "carhacks"
@@ -136,13 +136,13 @@
     {
       "id": "civviecops",
       "name": "CivvieCops",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": "Njurse",
       "description": "Hand-made civilian variants of the Driver 2 cop cars (CIVICOPS bank, Chicago/Havana/Rio/Vegas) plus the COPSNRBRS cop-car bank, whose cars are police-only (patrol cars) in Cops n Robbers. Data-only; needs Car Hacks.",
-      "file": "packages/civviecops-0.2.0.zip",
-      "sha256": "8efb0d9a4ffad54bd1894c3c66837f1feef4799be4a63d4e50464ba200f33a6d",
+      "file": "packages/civviecops-0.2.1.zip",
+      "sha256": "fc5cb2dfa983981830d3f447eca988f5a91049964742a9bcbd14dc68800d0afd",
       "interface": 3,
-      "size": 2242516,
+      "size": 2571342,
       "default_enabled": false,
       "requires": [
         "carhacks"
